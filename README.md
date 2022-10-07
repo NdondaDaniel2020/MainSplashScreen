@@ -2,6 +2,9 @@
 * Uma interface gráfica com login, MainWindow e Splash Screen para poder usar como base em seus projetos futuros. 
 * O projeto tem 4 temas Normal, Dark, White, BlueGreen
 
+### Requisito 
+  * Package PySide6 
+
 ## Normal
 ![MainWindow 06_10_2022 23_56_04](https://user-images.githubusercontent.com/108186371/194437503-91c6728d-c372-4b66-ba81-c231930e7e75.png)
 ![MainWindow 06_10_2022 23_51_25](https://user-images.githubusercontent.com/108186371/194437516-6a714407-f491-45f5-8fde-2552ebff1f9a.png)
