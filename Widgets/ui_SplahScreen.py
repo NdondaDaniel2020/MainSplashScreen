@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'SplahScreenkmSUTE.ui'
+## Form generated from reading UI file 'SplahScreenYPlKrl.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.3.1
+## Created by: Qt User Interface Compiler version 6.3.2
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -18,17 +18,17 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
 from PySide6.QtWidgets import (QApplication, QFrame, QLabel, QLineEdit,
     QMainWindow, QPushButton, QSizePolicy, QStackedWidget,
     QToolButton, QVBoxLayout, QWidget)
-import imagens.imag.img_rc
+import img_rc
 
 class Ui_loginSplashScreen(object):
     def setupUi(self, loginSplashScreen):
         if not loginSplashScreen.objectName():
             loginSplashScreen.setObjectName(u"loginSplashScreen")
-        loginSplashScreen.resize(322, 300)
+        loginSplashScreen.resize(320, 520)
         loginSplashScreen.setMaximumSize(QSize(600, 520))
         self.centralwidget = QWidget(loginSplashScreen)
         self.centralwidget.setObjectName(u"centralwidget")
-        self.centralwidget.setMinimumSize(QSize(0, 300))
+        self.centralwidget.setMinimumSize(QSize(0, 311))
         self.centralwidget.setMaximumSize(QSize(600, 520))
         self.centralwidget.setStyleSheet(u"\n"
 "QToolTip {\n"
@@ -54,7 +54,7 @@ class Ui_loginSplashScreen(object):
         self.stackedWidget.setObjectName(u"stackedWidget")
         self.stackedWidget.setMinimumSize(QSize(300, 0))
         self.stackedWidget.setMaximumSize(QSize(300, 16777215))
-        self.stackedWidget.setStyleSheet(u"background-color: rgb(56, 58, 89);\n"
+        self.stackedWidget.setStyleSheet(u"background-color: rgb(120, 139, 180);\n"
 "color:rgb(220, 220, 220);\n"
 "border-radius:10px;")
         self.SpashScreen = QWidget()
@@ -69,6 +69,7 @@ class Ui_loginSplashScreen(object):
         self.principal_frame = QFrame(self.login)
         self.principal_frame.setObjectName(u"principal_frame")
         self.principal_frame.setMaximumSize(QSize(16777215, 500))
+        self.principal_frame.setStyleSheet(u"")
         self.principal_frame.setFrameShape(QFrame.StyledPanel)
         self.principal_frame.setFrameShadow(QFrame.Raised)
         self.verticalLayout_2 = QVBoxLayout(self.principal_frame)
@@ -77,7 +78,20 @@ class Ui_loginSplashScreen(object):
         self.verticalLayout_2.setContentsMargins(0, 0, 0, 0)
         self.centro = QFrame(self.principal_frame)
         self.centro.setObjectName(u"centro")
-        self.centro.setStyleSheet(u"")
+        self.centro.setStyleSheet(u"QLineEdit{\n"
+"background-color: rgb(120, 139, 180);\n"
+"color: rgb(220, 203, 216);\n"
+"font: 10pt \"MS Shell Dlg 2\";\n"
+"border-radius: 10px;\n"
+"border	:	2px solid   rgb(255, 120, 213);\n"
+"padding-left:8px\n"
+"}\n"
+"QLineEdit:hover{\n"
+"border	:	3px solid   rgb(255, 120, 213)\n"
+"}\n"
+"QLineEdit:focus{\n"
+"border	:	3px solid  rgb(199, 94, 167)\n"
+"}")
         self.centro.setFrameShape(QFrame.StyledPanel)
         self.centro.setFrameShadow(QFrame.Raised)
         self.rect_logo = QFrame(self.centro)
@@ -116,22 +130,22 @@ class Ui_loginSplashScreen(object):
         self.nameYourA.setAlignment(Qt.AlignBottom|Qt.AlignHCenter)
         self.yourApp = QLabel(self.centro)
         self.yourApp.setObjectName(u"yourApp")
-        self.yourApp.setGeometry(QRect(0, 195, 300, 34))
+        self.yourApp.setGeometry(QRect(0, 200, 300, 34))
         self.yourApp.setMaximumSize(QSize(341, 34))
         font2 = QFont()
         font2.setPointSize(20)
         self.yourApp.setFont(font2)
-        self.yourApp.setStyleSheet(u"color: rgb(98, 114, 164);")
+        self.yourApp.setStyleSheet(u"color: rgb(220, 203, 216);")
         self.yourApp.setAlignment(Qt.AlignCenter)
         self.discricao = QLabel(self.centro)
         self.discricao.setObjectName(u"discricao")
-        self.discricao.setGeometry(QRect(-1, 245, 300, 20))
+        self.discricao.setGeometry(QRect(-1, 240, 300, 20))
         self.discricao.setMinimumSize(QSize(0, 20))
         self.discricao.setMaximumSize(QSize(1234, 20))
         font3 = QFont()
         font3.setPointSize(10)
         self.discricao.setFont(font3)
-        self.discricao.setStyleSheet(u"QLabel{color: rgba(98, 114, 164, 255)}")
+        self.discricao.setStyleSheet(u"color: rgb(220, 203, 216);")
         self.discricao.setAlignment(Qt.AlignCenter)
         self.ld_user = QLineEdit(self.centro)
         self.ld_user.setObjectName(u"ld_user")
@@ -144,45 +158,23 @@ class Ui_loginSplashScreen(object):
         font4.setBold(False)
         font4.setItalic(False)
         self.ld_user.setFont(font4)
-        self.ld_user.setStyleSheet(u"QLineEdit{\n"
-"background-color: rgba(98, 114, 164, 255);\n"
-"font: 10pt \"MS Shell Dlg 2\";\n"
-"border-radius: 10px;\n"
-"border	:	2px solid    rgba(98, 114, 164, 255);\n"
-"}\n"
-"QLineEdit:hover{\n"
-"border	:	3px solid   rgba(123, 61, 184, 255)\n"
-"}\n"
-"QLineEdit:focus{\n"
-"border	:	3px solid  rgba(171, 85, 255, 255)\n"
-"}")
+        self.ld_user.setStyleSheet(u"")
         self.ld_Pass = QLineEdit(self.centro)
         self.ld_Pass.setObjectName(u"ld_Pass")
         self.ld_Pass.setGeometry(QRect(25, 329, 250, 40))
         self.ld_Pass.setMinimumSize(QSize(250, 40))
         self.ld_Pass.setMaximumSize(QSize(250, 40))
-        self.ld_Pass.setStyleSheet(u"QLineEdit{\n"
-"background-color: rgba(98, 114, 164, 255);\n"
-"font: 10pt \"MS Shell Dlg 2\";\n"
-"border-radius: 10px;\n"
-"border	:	2px solid    rgba(98, 114, 164, 255);\n"
-"}\n"
-"QLineEdit:hover{\n"
-"border	:	3px solid   rgba(123, 61, 184, 255)\n"
-"}\n"
-"QLineEdit:focus{\n"
-"border	:	3px solid  rgba(171, 85, 255, 255)\n"
-"}")
+        self.ld_Pass.setStyleSheet(u"")
         self.ld_Pass.setEchoMode(QLineEdit.Password)
-        self.login_2 = QPushButton(self.centro)
-        self.login_2.setObjectName(u"login_2")
-        self.login_2.setGeometry(QRect(45, 381, 210, 41))
-        self.login_2.setMinimumSize(QSize(210, 41))
-        self.login_2.setMaximumSize(QSize(210, 41))
+        self.login_3 = QPushButton(self.centro)
+        self.login_3.setObjectName(u"login_3")
+        self.login_3.setGeometry(QRect(45, 381, 210, 41))
+        self.login_3.setMinimumSize(QSize(210, 41))
+        self.login_3.setMaximumSize(QSize(210, 41))
         font5 = QFont()
         font5.setPointSize(12)
-        self.login_2.setFont(font5)
-        self.login_2.setStyleSheet(u"QPushButton{\n"
+        self.login_3.setFont(font5)
+        self.login_3.setStyleSheet(u"QPushButton{\n"
 "	background-color: rgb(255, 120, 213);\n"
 "border-radius:10px;\n"
 "\n"
@@ -254,7 +246,7 @@ class Ui_loginSplashScreen(object):
 
         self.retranslateUi(loginSplashScreen)
 
-        self.stackedWidget.setCurrentIndex(0)
+        self.stackedWidget.setCurrentIndex(1)
 
 
         QMetaObject.connectSlotsByName(loginSplashScreen)
@@ -269,10 +261,10 @@ class Ui_loginSplashScreen(object):
         self.discricao.setText(QCoreApplication.translate("loginSplashScreen", u"Email address and password", None))
         self.ld_user.setInputMask("")
         self.ld_user.setText("")
-        self.ld_user.setPlaceholderText(QCoreApplication.translate("loginSplashScreen", u"  Email", None))
+        self.ld_user.setPlaceholderText(QCoreApplication.translate("loginSplashScreen", u"Email", None))
         self.ld_Pass.setText("")
-        self.ld_Pass.setPlaceholderText(QCoreApplication.translate("loginSplashScreen", u"  Password", None))
-        self.login_2.setText(QCoreApplication.translate("loginSplashScreen", u"login", None))
+        self.ld_Pass.setPlaceholderText(QCoreApplication.translate("loginSplashScreen", u"Password", None))
+        self.login_3.setText(QCoreApplication.translate("loginSplashScreen", u"login", None))
         self.by.setText(QCoreApplication.translate("loginSplashScreen", u"by: Ndonda Daniel", None))
 #if QT_CONFIG(tooltip)
         self.toolButton_2.setToolTip(QCoreApplication.translate("loginSplashScreen", u"Minimizar", None))
