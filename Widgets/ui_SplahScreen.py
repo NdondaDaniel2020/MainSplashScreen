@@ -18,7 +18,7 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
 from PySide6.QtWidgets import (QApplication, QFrame, QLabel, QLineEdit,
     QMainWindow, QPushButton, QSizePolicy, QStackedWidget,
     QToolButton, QVBoxLayout, QWidget)
-import img_rc
+import imagens.imag.img_rc
 
 class Ui_loginSplashScreen(object):
     def setupUi(self, loginSplashScreen):

@@ -41,7 +41,7 @@ class LoginScreen(QMainWindow):
         # BTNS MINIMIZAR E FECHAR
         self.ui.toolButton.clicked.connect(lambda: self.close())
         self.ui.toolButton_2.clicked.connect(lambda: self.showMinimized())
-        self.ui.login_2.clicked.connect(self.login)
+        self.ui.login_3.clicked.connect(self.login)
         self.ui.ld_Pass.returnPressed.connect(self.login)
 
         # import circular progress
@@ -117,7 +117,7 @@ class LoginScreen(QMainWindow):
         self.ui.discricao.close()
         self.ui.ld_user.close()
         self.ui.ld_Pass.close()
-        self.ui.login_2.close()
+        self.ui.login_3.close()
         self.ui.name.close()
         self.ui.nameYourA.close()
         self.ui.logo.close()
@@ -127,7 +127,7 @@ class LoginScreen(QMainWindow):
         # atribuindo o estilo zerado
         self.ui.ld_user.setStyleSheet(StyleLocal.LEzero)
         self.ui.ld_Pass.setStyleSheet(StyleLocal.LEzero)
-        self.ui.login_2.setStyleSheet(StyleLocal.ZeroBtn)
+        self.ui.login_3.setStyleSheet(StyleLocal.ZeroBtn)
         self.ui.discricao.setStyleSheet(StyleLocal.labelZero)
         self.ui.yourApp.setStyleSheet(StyleLocal.labelZero)
 
@@ -154,6 +154,7 @@ class LoginScreen(QMainWindow):
                                color: rgba(220, 203, 216, {alphaC});
                                font: 10pt "MS Shell Dlg 2";
                                border-radius: 10px;
+                               padding-left:8px;
                                border:2px solid rgba(255, 120, 213, {alphaB});
                                }
                                QLineEdit:hover{
@@ -187,6 +188,7 @@ class LoginScreen(QMainWindow):
                                            color: rgba(98, 114, 164, {alphaC});
                                            font: 10pt "MS Shell Dlg 2";
                                            border-radius: 10px;
+                                           padding-left:8px;
                                            border:2px solid rgba(255, 120, 213, {alphaB});
                                            }
                                            QLineEdit:hover{
@@ -220,6 +222,7 @@ class LoginScreen(QMainWindow):
                            color: rgba(220, 203, 216, {alphaC});
                            font: 10pt "MS Shell Dlg 2";
                            border-radius: 10px;
+                           padding-left:8px;
                            border:2px solid rgba(255, 120, 213, {alphaB});
                            }
                            QLineEdit:hover{
@@ -253,6 +256,7 @@ class LoginScreen(QMainWindow):
                            color: rgba(220, 203, 216, {alphaC});
                            font: 10pt "MS Shell Dlg 2";
                            border-radius: 10px;
+                           padding-left:8px;
                            border:2px solid rgba(255, 120, 213, {alphaB});
                            }
                            QLineEdit:hover{
@@ -334,13 +338,13 @@ class LoginScreen(QMainWindow):
             self.ui.ld_Pass.setStyleSheet(newstylesheet2)
 
         if counter >= 185 + test:
-            self.ui.login_2.show()
+            self.ui.login_3.show()
             a = counter
             b = a - 1
             a = a - b
             counterBtn += (a + 4)
             newbtnStylesheet = btnStylesheet.replace("{alpha}", str(counterBtn))
-            self.ui.login_2.setStyleSheet(newbtnStylesheet)
+            self.ui.login_3.setStyleSheet(newbtnStylesheet)
 
             if counterBtn == 225:
                 # STOP TIMER
