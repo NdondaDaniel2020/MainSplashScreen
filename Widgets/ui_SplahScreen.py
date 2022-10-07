@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'SplahScreenYPlKrl.ui'
+## Form generated from reading UI file 'SplahScreencEDmAN.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.3.2
 ##
@@ -24,7 +24,7 @@ class Ui_loginSplashScreen(object):
     def setupUi(self, loginSplashScreen):
         if not loginSplashScreen.objectName():
             loginSplashScreen.setObjectName(u"loginSplashScreen")
-        loginSplashScreen.resize(320, 520)
+        loginSplashScreen.resize(320, 311)
         loginSplashScreen.setMaximumSize(QSize(600, 520))
         self.centralwidget = QWidget(loginSplashScreen)
         self.centralwidget.setObjectName(u"centralwidget")
@@ -246,7 +246,7 @@ class Ui_loginSplashScreen(object):
 
         self.retranslateUi(loginSplashScreen)
 
-        self.stackedWidget.setCurrentIndex(1)
+        self.stackedWidget.setCurrentIndex(0)
 
 
         QMetaObject.connectSlotsByName(loginSplashScreen)

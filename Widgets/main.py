@@ -51,7 +51,7 @@ class LoginScreen(QMainWindow):
         self.progress.height = 270
         self.progress.value = 0
         self.progress.setFixedSize(self.progress.width, self.progress.height)
-        self.progress.move(25, 15)
+        self.progress.move(25, 20)
         self.progress.font_size = 12
         self.progress.progress_width = 3
         self.progress.ad_shadow(True)
@@ -483,6 +483,7 @@ class LoginScreen(QMainWindow):
                             color: rgb(220, 203, 216);
                             font: 10pt "MS Shell Dlg 2";
                             border-radius: 10px;
+                            padding-left:8px;
                             border	:	2px solid   rgb(255, 120, 213);
                             }
                             QLineEdit:hover{
@@ -499,6 +500,7 @@ class LoginScreen(QMainWindow):
                                         color: rgb(98, 114, 164);
                                         font: 10pt "MS Shell Dlg 2";
                                         border-radius: 10px;
+                                        padding-left:8px;
                                         border	:	2px solid   rgb(255, 120, 213);
                                         }
                                         QLineEdit:hover{
@@ -515,6 +517,7 @@ class LoginScreen(QMainWindow):
                                         color: rgb(220, 203, 216);
                                         font: 10pt "MS Shell Dlg 2";
                                         border-radius: 10px;
+                                        padding-left:8px;
                                         border	:	2px solid   rgb(255, 120, 213);
                                         }
                                         QLineEdit:hover{
@@ -531,6 +534,7 @@ class LoginScreen(QMainWindow):
                                                    color: rgb(220, 203, 216);
                                                    font: 10pt "MS Shell Dlg 2";
                                                    border-radius: 10px;
+                                                   padding-left:8px;
                                                    border	:	2px solid   rgb(255, 120, 213);
                                                    }
                                                    QLineEdit:hover{
@@ -554,6 +558,7 @@ class LoginScreen(QMainWindow):
                             color: rgb(220, 203, 216);
                             font: 10pt "MS Shell Dlg 2";
                             border-radius: 10px;
+                            padding-left:8px;
                             border	:	2px solid   rgb(255, 120, 213);
                             }
                             QLineEdit:hover{
@@ -570,6 +575,7 @@ class LoginScreen(QMainWindow):
                                         color: rgb(98, 114, 164);
                                         font: 10pt "MS Shell Dlg 2";
                                         border-radius: 10px;
+                                        padding-left:8px
                                         border	:	2px solid   rgb(255, 120, 213);
                                         }
                                         QLineEdit:hover{
@@ -586,6 +592,7 @@ class LoginScreen(QMainWindow):
                                         color: rgb(220, 203, 216);
                                         font: 10pt "MS Shell Dlg 2";
                                         border-radius: 10px;
+                                        padding-left:8px
                                         border	:	2px solid   rgb(255, 120, 213);
                                         }
                                         QLineEdit:hover{
@@ -602,6 +609,7 @@ class LoginScreen(QMainWindow):
                                                    color: rgb(220, 203, 216);
                                                    font: 10pt "MS Shell Dlg 2";
                                                    border-radius: 10px;
+                                                   padding-left:8px
                                                    border	:	2px solid   rgb(255, 120, 213);
                                                    }
                                                    QLineEdit:hover{
