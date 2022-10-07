@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>320</width>
-    <height>520</height>
+    <height>311</height>
    </rect>
   </property>
   <property name="maximumSize">
@@ -86,7 +86,7 @@ color:rgb(220, 220, 220);
 border-radius:10px;</string>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="SpashScreen"/>
       <widget class="QWidget" name="login">
