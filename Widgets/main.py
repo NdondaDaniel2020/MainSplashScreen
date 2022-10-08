@@ -181,7 +181,7 @@ class LoginScreen(QMainWindow):
             fLb_stylesheet = """QLabel{color: rgba(254, 121, 199,{rect})
                        }"""
 
-        elif (CORSC == "2º  Light"):
+        elif (CORSC == "2º  white"):
             stylesheet = """ 
                                    QLineEdit{
                                            background-color: rgba(255, 255, 255, {alphaC});
@@ -433,7 +433,7 @@ class LoginScreen(QMainWindow):
                         self.ui.ld_Pass.setStyleSheet("QLineEdit{background-color: rgb(70, 72, 111);"
                                                       " border:3px solid rgb(255, 0, 0)}")
 
-                    elif (cor == "2º  Light"):
+                    elif (cor == "2º  white"):
                         self.ui.ld_Pass.setStyleSheet("QLineEdit{background-color: rgb(255, 255, 255); "
                                                       "border:3px solid rgb(255, 0, 0)}")
 
@@ -456,7 +456,7 @@ class LoginScreen(QMainWindow):
                     self.ui.ld_user.setStyleSheet("QLineEdit{background-color: rgb(70, 72, 111);"
                                                   " border:3px solid rgb(255, 0, 0)}")
 
-                elif (cor == "2º  Light"):
+                elif (cor == "2º  white"):
                     self.ui.ld_user.setStyleSheet("QLineEdit{background-color: rgb(255, 255, 255); "
                                                   "border:3px solid rgb(255, 0, 0)}")
 
@@ -493,7 +493,7 @@ class LoginScreen(QMainWindow):
                             border	:	3px solid  rgb(199, 94, 167)
                             }""")
 
-                elif (cor == "2º  Light"):
+                elif (cor == "2º  white"):
                     self.ui.ld_user.setStyleSheet(u""" 
                                         QLineEdit{
                                         background-color: rgb(255, 255, 255);
@@ -568,7 +568,7 @@ class LoginScreen(QMainWindow):
                             border	:	3px solid  rgb(199, 94, 167)
                             }""")
 
-                elif (cor == "2º  Light"):
+                elif (cor == "2º  white"):
                     self.ui.ld_Pass.setStyleSheet(u""" 
                                         QLineEdit{
                                         background-color: rgb(255, 255, 255);
@@ -658,7 +658,7 @@ class LoginScreen(QMainWindow):
             self.ui.discricao.setStyleSheet("color: rgb(98, 114, 164);")
             self.progress.progress_color = 0xFF79c6
 
-        elif(cor == "2º  Light"):
+        elif(cor == "2º  white"):
             self.ui.stackedWidget.setStyleSheet("""
                         background-color: rgb(255, 255, 255);
                         color:rgb(220, 220, 220);
@@ -1423,7 +1423,7 @@ QPushButton:pressed{
             with open("Tema.txt", "w") as CORTEMA:
                 CORTEMA.write("1º  Normal")
 
-        if (tema == "2º  Light"):
+        if (tema == "2º  white"):
             self.ui.btns.setStyleSheet("""
                                         QToolButton{
                                         color: #c3ccdf;
@@ -1816,7 +1816,7 @@ QPushButton:pressed{
             self.ui.frame_central.setStyleSheet("background-color: rgb(255, 255, 255);")
 
             with open("Tema.txt", "w") as CORTEMA:
-                CORTEMA.write("2º  Light")
+                CORTEMA.write("2º  white")
 
         if (tema == "3º  Dark"):
             self.ui.btns.setStyleSheet("""QToolButton{

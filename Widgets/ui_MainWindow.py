@@ -1785,7 +1785,7 @@ class Ui_MainWindow(object):
         self.label_16.setText(QCoreApplication.translate("MainWindow", u"SETTINGS of THEME", None))
         self.label_6.setText(QCoreApplication.translate("MainWindow", u"THEME", None))
         self.selectTheme.setItemText(0, QCoreApplication.translate("MainWindow", u"1\u00ba  Normal", None))
-        self.selectTheme.setItemText(1, QCoreApplication.translate("MainWindow", u"2\u00ba  Light", None))
+        self.selectTheme.setItemText(1, QCoreApplication.translate("MainWindow", u"2\u00ba  white", None))
         self.selectTheme.setItemText(2, QCoreApplication.translate("MainWindow", u"3\u00ba  Dark", None))
         self.selectTheme.setItemText(3, QCoreApplication.translate("MainWindow", u"4\u00ba  BlueGreen", None))
 
